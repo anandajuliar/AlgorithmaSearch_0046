@@ -11,3 +11,5 @@ void input()
     {
      cout << "Enter the number of elements in the aray: ";
      cin >> n;
+     if ((n > 0) && (n <= 20))
+         break;
